@@ -1,0 +1,23 @@
+.dashed {
+  margin-left: 40px;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 80px;
+  li {
+    list-style: none;
+    margin-bottom: 8px;
+    position: relative;
+    font-family: $font-family_medium;
+    &:before {
+      width: 20px;
+      height: 1px;
+      background-color: $color_black;
+      content: '';
+      opacity: 0.8;
+      margin: 0 16px 0 0;
+      position: absolute;
+      left: -40px;
+      top: 12px;
+    }
+  }
+}

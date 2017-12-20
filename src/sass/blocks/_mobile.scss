@@ -1,0 +1,152 @@
+@media (max-width: 640px) {
+  .item_head {
+    height: 100vh;
+      img {
+        width: auto;
+        height: 100%;
+      }
+  }
+  .black_block {
+    width: 90%;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .about_box {
+    flex-direction: column;
+    margin-top: 40px;
+      .left {
+        width: 100%;
+      }
+      .right {
+        width: 100%;
+      }
+  }
+  .right_desc {
+    padding: 30px 0;
+  }
+  .year_box {
+    min-width: 280px;
+    background-size: 63%;
+    padding-top: 20px;
+  }
+  .tile_box__item {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+  .tile_box__item img {
+    max-height: 50px;
+    margin-bottom: 5px;
+  }
+  .divider {
+    margin: 12px 0;
+  }
+  .specia_box {
+    padding: 0 40px;
+  }
+  .slider__inner .slider {
+    width: 100%;
+  }
+  .box {
+    padding: 0 40px;
+  }
+  .smm_box {
+    flex-direction: column;
+      .left {
+        width: 100%;
+      }
+      .right {
+        width: 100%;
+      }
+  }
+  .smm_box .smm {
+    height: auto;
+    background-size: 33% 100%;
+    margin-bottom: 40px;
+  }
+  .smm_box .right__inner {
+    padding: 0;
+  }
+  .sub_desc {
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      &:after {
+        width: 20px;
+      }
+  }
+  .dashed {
+    padding-left: 40px;
+  }
+  .title_people {
+    background-size: 33% 100%;
+    background-position: 100%;
+  }
+  .framed {
+    max-width: 360px;
+    margin: 0;
+  }
+  .link_arrow {
+    padding-left: 0;
+
+  }
+  .link_arrow span {
+    font-size: 12px;
+  }
+  .slider_black {
+    flex-direction: column;
+  }
+  .brands_tile {
+    margin: 50px 0;
+    margin-bottom: 0;
+  }
+  .brands_tile__item {
+    margin-bottom: 50px;
+    width: calc(50% - 40px);
+    margin-right: 40px;
+      .img_box {
+        min-width: 100%;
+        height: 50px;
+        align-items: flex-start;
+          img {
+            max-width: 120px;
+            max-height: 50px;
+          }
+      }
+    &:nth-child(3n+3) {
+      margin-right: 40px;
+    }
+    &:nth-child(5n+5) {
+      margin-right: 40px;
+    }
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+  .sites_box .tile_box__item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .box {
+    padding: 0 20px;
+  }
+  .specia_box {
+    padding: 0 20px;
+  }
+  .black_block {
+    padding: 30px;
+  }
+  .brands_tile__item {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+}
+
