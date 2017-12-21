@@ -193,11 +193,15 @@
 .sites_box {
   width: 100%;
   max-width: 1280px;
+  align-items: stretch;
   flex-wrap: wrap;
   justify-content: space-between;
     .tile_box__item {
       margin-right: 160px;
       width: calc(33.333% - 110px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
         &:nth-child(3n+3) {
           margin-right: 0;
         }
