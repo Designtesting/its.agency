@@ -40,6 +40,10 @@
     * size on mobile
     */
 
+  .page__inner {
+    overflow: hidden;
+  }
+
   .layout-inner {
     min-width: 320px;
     width: 100%;

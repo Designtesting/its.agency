@@ -1,4 +1,17 @@
 @media (max-width: 640px) {
+  .item_head .main_title {
+    left: 40px;
+    transform: rotate(90deg);
+    top: -200px;
+  }
+  .sites_box .tile_box__item .site_item {
+    padding: 20px 0;
+    border-bottom: 1px solid #d7d7d9;
+    max-width: 100%;
+  }
+  .text {
+    margin-top: 20px;
+  }
   .item_head {
     height: 100vh;
       img {
@@ -133,6 +146,16 @@
   }
 }
 
+@media (max-width: 476px) {
+  .item_head .main_title {
+    top: -100px;
+    left: 40px;
+  }
+  .item_head .main_title p {
+    font-size: 4rem;
+  }
+}
+
 @media (max-width: 376px) {
   .box {
     padding: 0 20px;
@@ -148,5 +171,6 @@
     margin-right: 20px;
     margin-bottom: 50px;
   }
+
 }
 

@@ -1,3 +1,22 @@
+@media (max-width: 1777px) {
+  .item_head .main_title p {
+    font-size: 15rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .tile_people__col p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .item_head .main_title p {
+    font-size: 10rem;
+  }
+
+}
+
 @media (max-width: 1300px) {
   .box {
     padding: 0 60px;
@@ -15,6 +34,11 @@
 }
 
 @media (max-width: 1040px) {
+  .arrow {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
   .brands_tile__item {
     width: calc(33.333% - 70px);
     margin-right: 100px;
@@ -90,9 +114,29 @@
     margin: 0 auto;
     margin-bottom: 40px;
   }
+  .text {
+    p {
+      margin: 0;
+      padding-left: 40px;
+    }
+  }
+  .tile_people {
+    flex-direction: column;
+      &__col {
+        width: 100%;
+        margin-right: 0;
+      }
+  }
+}
+
+@media (max-width: 980px) {
+  .item_head .main_title p {
+    font-size: 7rem;
+  }
 }
 
 @media (max-width: 780px) {
+
   .tile_box {
     flex-wrap: wrap;
   }
@@ -102,7 +146,7 @@
     margin-bottom: 60px;
   }
   .margin {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   .mt {
     margin-top: 50px;
