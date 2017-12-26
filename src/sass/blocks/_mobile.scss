@@ -28,6 +28,7 @@
     }
     p {
       font-size: 12px;
+      line-height: 18pt;
     }
     .about_box {
       flex-direction: column;
@@ -99,6 +100,10 @@
     .title_people {
       background-size: 33% 100%;
       background-position: 100%;
+    }
+    .tile_people__col p {
+      font-size: 15px;
+      margin-bottom: 5px;
     }
     .framed {
       max-width: 360px;

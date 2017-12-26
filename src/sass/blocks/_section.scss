@@ -1,8 +1,8 @@
 .page-about {
   p {
-    font-size: 20px;
+    font-size: 16pt;
     opacity: 0.8;
-    line-height: 33px;
+    line-height: 28pt;
   }
 
 
@@ -11,7 +11,7 @@
   padding: 0;
   height: 100vh;
   position: relative;
-  background-color: #7584a5;
+  background-color: #0f0f15;
     video {
       width: 100%;
       min-width: 100%;
@@ -29,7 +29,7 @@
     .main_title {
       position: absolute;
       z-index: 3;
-      opacity: 0.2;
+      opacity: 1;
       left: 80px;
       width: max-content;
       top: 0;
@@ -127,8 +127,11 @@
       max-width: 640px;
         p {
           font-family: $font-family_light;
-          line-height: 28px;
+          line-height: 28pt;
         }
+      h3 {
+        font-size: 30pt;
+      }
     }
 }
 
@@ -264,17 +267,17 @@
 
 .about_title {
   font-family: $font-family_semibold;
-  font-size: 62px;
-  line-height: 70px;
+  font-size: 48pt;
+  line-height: 54pt;
 }
 
 .sub_title {
-  font-size: 48px;
-  line-height: 62px;
+  font-size: 48pt;
+  line-height: 54pt;
 }
 
 .about_box {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .right_desc {
@@ -285,7 +288,7 @@
   max-width: 540px;
   margin-top: 50px;
   opacity: 0.8;
-  line-height: 26px;
+  line-height: 36px;
   padding-left: 80px;
   position: relative;
     &:after {
@@ -335,6 +338,12 @@
           top: -40px;
           right: 20%;
           transform: translateX(-50%);
+            //&:hover {
+            //  .btn_next {
+            //    width: 240px;
+            //    transition: all 0.5s;
+            //  }
+            //}
         }
         img {
           margin-right: 10px;
@@ -350,11 +359,12 @@
   height: 1px;
   background-color: $color-black;
   content: '';
+  transition: all 0.5s;
     &:after {
       position: absolute;
       right: 0;
       content: '';
-      top: -4px;
+      top: -3px;
       width: 8px;
       height: 8px;
       border-right: 1px solid $color-black;
@@ -364,7 +374,7 @@
 }
 
 .framed {
-  max-width: 870px;
+  max-width: 940px;
 }
 
 .smm_box {
@@ -403,6 +413,13 @@
   span {
     font-family: $font-family_medium;
     color: $color-black;
+    margin-right: 32px;
+  }
+  &:hover {
+    .btn_next {
+      width: 240px;
+      transition: all 0.5s;
+    }
   }
 }
 
